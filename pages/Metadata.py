@@ -71,7 +71,7 @@ def save_to_json(file_base64, file_name, doc_type_id, metadata_values):
     metadata_list = [{"id": id, "value": value} for id, value in metadata_values.items()]
     data = {
         "file_base64": file_base64,
-        "dms_domain": "edms-demo.epik.live",
+        "dms_domain": "sagawa.epik.live",
         "file_name": file_name,
         "doctype_id": doc_type_id,
         "docmeta_data": metadata_list
