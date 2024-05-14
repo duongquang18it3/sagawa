@@ -1,0 +1,8 @@
+streamlit
+requests
+Pillow
+PyMuPDF
+pandas
+plotly
+pathlib
+streamlit-authenticator==0.1.5
